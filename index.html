@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> for coffee </title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+.For-Main{
+	width:100%;
+	height:auto;
+	background-image:url(image/body-base.jpg);
+	background-repeat:repeat-x;
+	background-color:#a2745a;
+}
+.For-Main1{
+	width:960px;
+	height:168px;
+	margin:auto;
+}
+.For-Main1_1{
+	width:320px;
+	height:auto;
+	float:left;
+	padding:50px 0 0 0;
+}
+.For-Main1_1 h2{
+	color:#a2745a;
+	font-size:25px;
+}
+.For-Main1_1 h1{
+	color:#ffd7c1;
+	font-size:35px;
+}
+.For-Main1_2{
+	width:320px;
+	height:auto;
+	float:left;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+.For-Main1_3{
+	width:260px;
+	height:auto;
+	float:left;
+	margin:40px 0 0  60px;
+}
+.For-Main1_3 p{
+	font-family:georgia;
+	font-size:13px;
+	color:#e3bba5;
+}
+.For-Main  form input[type=search]{
+	width:250px;
+	height:36px;
+	border:1px solid #7b5541;
+	border-radius:10px;
+	outline:none;
+	background-color:rgba(0,0,0,0.65);
+	font-famly:georgia;
+	font-size:13px;
+	color:#a2745a;
+	padding-left:10px;
+	background-image:url("image/search.png");
+	background-repeat:no-repeat;
+	background-position:95% center;
+}
+.For-Main2{
+	width:1037px;
+	height:auto;
+	margin:auto;
+	background:url("image/texture-left.png") left bottom no-repeat, url("image/texture-right.png") right bottom no-repeat;
+}
+.For-Main2_1{
+	width:960px;
+	height:66px;
+	margin:auto;
+	background:url(image/navbar-arc.png);
+	padding:37px 0 0 0;
+}
+.For-Main2_1_1{
+	width:934px;
+	height:48px;
+	margin:auto;
+	background:url(image/navbar-base.jpg) no-repeat center;
+	border-top: 2px dotted #513a2d;
+	border-bottom: 2px dotted #513a2d;
+	text-align:center;
+}
+.For-Main2_1_1 ul{
+	padding:0;
+	margin:15px 0 0 0;
+}
+.For-Main2_1_1 ul li{
+	list-style-type:none;
+	display:inline;
+	font-family: 'fertigo_proregular';
+	font-size:14px;
+	color:#513a2d;
+	margin:0 8px;
+}
+.For-Main2_1_1 ul li a:link, .For-Main2_1_1 ul li a:visited{
+	font-family: 'fertigo_proregular';
+	font-size:14px;
+	color:#513a2d;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+}
+.For-Main2_1_1 ul li a:hover, .For-Main2_1_1 ul li a.active{
+	font-family: 'fertigo_proregular';
+	font-size:14px;
+	color:#af182a;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+}
+.For-Main2_2{
+	width:960px;
+	height:auto;
+	margin:auto;
+	background:url(image/inner-body-base.jpg);
+}
+.For-Main2_2_1{
+	width:931px;
+	height:auto;
+	margin:auto;
+	border-top: 2px dotted #513a2d;
+	border-right: 2px dotted #513a2d;
+	border-left: 2px dotted #513a2d;
+}
+.For-Main2_2_1_1{
+	width:888px;
+	height:359px;
+	margin:23px auto 0 auto;
+}
+.For-Main2_2_1_2{
+	width:888px;
+	height:296px;
+	margin:20px auto 0 auto;
+}
+.For-Main2_2_1_2_1{
+	width:282px;
+	height:296px;
+	float:left;
+	background:url(image/daily-menu-arc.jpg) bottom no-repeat, #f7ba05;
+	text-align:center;
+}
+.For-Main2_2_1_2_1 h2{
+	font-family: 'fertigo_proregular';
+	font-size:35px;
+	color:#af182a;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+	margin:5px 0;
+}
+.For-Main2_2_1_2_1 img{
+	margin:0 0 15px 0;
+}
+.For-Main2_2_1_2_1 p{
+	font-family:Georgia;
+	font-size:13px;
+	color:#513a2d;
+	text-align:left;
+	margin:0 0 0 37px;
+}
+.For-Main2_2_1_2_2{
+	width:282px;
+	height:296px;
+	float:left;
+	background:url(image/specials-arc.jpg) bottom no-repeat, #e35948;
+	margin:0 21px;
+	text-align:center;
+}
+.For-Main2_2_1_2_2 h2{
+	font-family: 'fertigo_proregular';
+	font-size:35px;
+	color:#af182a;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+	margin:5px 0;
+}
+.For-Main2_2_1_2_2 img{
+	margin:0 0 15px 0;
+}
+.For-Main2_2_1_2_2 p{
+	font-family:Georgia;
+	font-size:13px;
+	color:#513a2d;
+	text-align:left;
+	margin:0 0 0 37px;
+}
+.For-Main2_2_1_2_3{
+	width:282px;
+	height:296px;
+	float:left;
+	background:url(image/catering-arc.jpg) bottom no-repeat, #98c618;
+	text-align:center;
+}
+.For-Main2_2_1_2_3 h2{
+	font-family: 'fertigo_proregular';
+	font-size:35px;
+	color:#af182a;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+	margin:5px 0;
+}
+.For-Main2_2_1_2_3 img{
+	margin:0 0 15px 0;
+}
+.For-Main2_2_1_2_3 p{
+	font-family:Georgia;
+	font-size:13px;
+	color:#513a2d;
+	text-align:left;
+	margin:0 0 0 37px;
+}
+.For-Main2_2_1_3{
+	width:888px;
+	height:277px;
+	margin:48px auto 0 auto;
+	background:#f4e5dc;
+}
+.For-Main2_2_1_3_1{
+	width:254px;
+	height:259px;
+	float:left;
+	padding:18px 0 0 28px;
+}
+.For-Main2_2_1_3_1 h3{
+	font-family: 'fertigo_proregular';
+	font-size:20px;
+	color:#af182a;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0 0 20px 0;	
+}
+.For-Main2_2_1_3_1 h3 span img{
+	margin:0 11px 0 0;
+}
+.For-Main2_2_1_3_1 ul{
+	float:left;
+	margin:0 25px 0 0;	
+}
+.For-Main2_2_1_3_1 ul li{
+	list-style-type:none;
+	font-family:Georgia;
+	font-size:13px;
+	color:#513a2d;
+	text-align:left;
+	line-height:20px;
+}
+.For-Main2_2_1_3_2{
+	width:282px;
+	height:259px;
+	float:left;
+	padding:18px 0 0 0;
+	margin:0 21px;
+}
+.For-Main2_2_1_3_2 h3{
+	font-family: 'fertigo_proregular';
+	font-size:20px; 
+	color:#af182a;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0 0 20px 0;	
+}
+.For-Main2_2_1_3_2 h3 span img{
+	margin:0 11px 0 0;
+}
+.For-Main2_2_1_3_2 img{
+	margin:0 0 10px 0;
+}
+.For-Main2_2_1_3_2 a:link, .For-Main2_2_1_3_2 a:visited{
+	font-family:Georgia;
+	font-size:13px;
+	color:#af182a;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:bold;
+}
+.For-Main2_2_1_3_2 a:hover{
+	font-family:Georgia;
+	font-size:13px;
+	color:#af182a;
+	text-decoration:underline;
+	font-style:italic;
+	font-weight:bold;
+}
+.For-Main2_2_1_3_3{
+	width:282px;
+	height:259px;
+	float:left;
+	padding:18px 0 0 0;
+}
+.For-Main2_2_1_3_3 h3{
+	font-family: 'fertigo_proregular';
+	font-size:20px;
+	color:#af182a;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0 0 20px 0;	
+}
+.For-Main2_2_1_3_3 h3 span img{
+	margin:0 11px 0 0;
+}
+.For-Main2_2_1_3_3 p{
+	font-family:Georgia;
+	font-size:13px;
+	color:#513a2d;
+	line-height:18px;
+	font-style:italic;
+}
+.For-Main2_2_1_3_3 p span{
+	font-weight:bold;
+}
+.For-Main2_2_1_4{
+	width:100%;
+	height:auto;
+	background:url(images/social-media-texture.png) top no-repeat;	
+	padding:55px 0 27px 0;
+}
+.For-Main2_2_1_4 hr{
+	width:34.8%;	
+	border-top:2px dotted #513a2d;
+	display:inline-block;
+}
+.For-Main2_2_1_4 img{
+	display:inline;
+}
+.For-Main2_2_1_5{
+	width:888px;
+	height:auto;
+	margin:auto;
+	background:url(images/footer-texture.png) bottom no-repeat, #a2745a;
+	text-align:center;
+	padding:25px 0;
+}
+.For-Main2_2_1_5 p{
+	font-family:Georgia;
+	font-size:13px;
+	color:#e2baa4;
+	padding:0 0 10px 0;	
+}
+.For-Main2_2_1_5 p a:link, .For-Main2_2_1_5 p a:visited{
+	font-family:Georgia;
+	font-size:13px;
+	color:#e2baa4;
+	text-decoration:none;
+}
+.For-Main2_2_1_5 p a:hover{
+	font-family:Georgia;
+	font-size:13px;
+	color:#e2baa4;
+	text-decoration:underline;	
+}
+.For-Main2_2_1_5 p .footer:link, .For-Main2_2_1_5 p .footer:visited{
+	font-family:Georgia;
+	font-size:13px;
+	color:#ffffff;
+	text-decoration:none;	
+}
+.For-Main2_2_1_5 p .footer:hover{
+	font-family:Georgia;
+	font-size:13px;
+	color:#ffffff;
+	text-decoration:underline;	
+}
+</style>
+</head>
+<body>
+<div class="For-Main">
+		<div class="For-Main1">
+			<div class="For-Main1_1">
+			<h2> Home Delivery</h2>
+			<h1>123-456-7890</h1>
+			</div>
+		<div class="For-Main1_2">
+			<img src="image/logo.png" alt="">
+		</div>
+		<div class="For-Main1_3">
+			<p> FAQ  |    Directions  |    Help </p>
+			<form>
+			<input type="search" placeholder="search" name="searchbox" id="searchbox">
+			</form>
+		</div>
+</div>
+<div class="For-Main2">
+		<div class="For-Main2_1">
+			<div class="For-Main2_1_1">
+				<ul>
+					<li><a href="#" class="active">Home</a></li>
+					<li>&bullet;</li>
+					<li><a href="#">AboutUs</a></li>
+					<li>&bullet;</li>
+					<li><a href="#">Menu</a></li>
+					<li>&bullet;</li>
+					<li><a href="#">Dinner</a></li>
+					<li>&bullet;</li>
+					<li><a href="#">Lunch</a></li>
+					<li>&bullet;</li>
+					<li><a href="#">Specials</a></li>
+					<li>&bullet;</li>
+					<li><a href="#">Party</a></li>
+					<li>&bullet;</li>
+					<li><a href="#">Catering</a></li>
+					<li>&bullet;</li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="For-Main2_2">
+			<div class="For-Main2_2_1">
+				<div class="For-Main2_2_1_1">
+					<img src="image/header.png" alt="" usemap="#Map">
+				</div>
+				<div class="For-Main2_2_1_2">
+					<div class="For-Main2_2_1_2_1">
+						<h2>daily menu</h2>
+						<img src="image/daily-menu.jpg" alt="">
+						<p>Agedame tuna roll<br><br>Maki de atún crujiente, servido sobre<br>chips de tempura, lsa inamita y<br>salsa ponzu.</p>
+					</div>
+					<div class="For-Main2_2_1_2_2">
+						<h2>specials</h2>
+						<img src="image/specials.jpg" alt="">
+						<p>Agedame tuna roll<br><br>Maki de atún crujiente, servido sobre<br>chips de tempura, lsa inamita y<br>salsa ponzu.</p>
+					</div>
+					<div class="For-Main2_2_1_2_3">
+						<h2>catering</h2>
+						<img src="image/catering.jpg" alt="">
+						<p>Agedame tuna roll<br><br>Maki de atún crujiente, servido sobre<br>chips de tempura, lsa inamita y<br>salsa ponzu.</p>
+					</div>
+				</div>
+				<div class="For-Main2_2_1_3">
+					<div class="For-Main2_2_1_3_1">
+						<h3><span><img src="image/menu-items.png" alt=""></span>menu items</h3>
+						<ul>
+							<li>Appetizers</li>
+							<li>Hot tapas</li>
+							<li>Soups and Salads</li>
+							<li>Accompaniments</li>
+							<li>Vegetarian Dish</li>
+							<li>Chicken Dish</li>
+							<li>Seafood Dish</li>
+							<li>Vegetarian Sauce</li>
+							<li>Red Sauce</li>
+						</ul>
+						<ul>
+							<li>Seafood Dish</li>
+							<li>Vegetarian Sauce</li>
+							<li>Red Sauce</li>
+							<li>Seafood Sauce</li>
+							<li>Desserts</li>
+							<li>Seafood Dish</li>
+							<li>Vegetarian Sauce</li>
+							<li>Red Sauce</li>
+						</ul>
+					</div>
+					<div class="For-Main2_2_1_3_2">
+						<h3><span><img src="image/food-videos.png" alt=""></span>food videos</h3>
+						<img src="image/player-skin.jpg" alt="">
+						<a href="#">See More Videos &gt;</a>
+					</div>
+					<div class="For-Main2_2_1_3_3">
+						<h3><span><img src="image/testimonials.png" alt=""></span>testimonials</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quam justo, interdum vitae fermentum nec, volutpat ac massa. Cras posuere massa in diam euismod pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br><br><span>Rafi, GraphicsFuel.com</span></p>
+					</div>
+				</div>
+				<div class="For-Main2_2_1_4">
+					<hr>
+					<img src="image/left-design.png" alt="">
+					<a href="#"><img src="image/twitter.png" alt=""></a>
+					<a href="#"><img src="image/facebook.png" alt=""></a>
+					<a href="#"><img src="image/linkedin.png" alt=""></a>
+					<a href="#"><img src="image/email.png" alt=""></a>
+					<img src="image/right-design.png" alt="">
+					<hr>
+				</div>
+				<div class="For-Main2_2_1_5">
+					<p><a href="#">Home</a> . <a href="#">About Us</a> . <a href="#">Menu</a> . <a href="#">Dinner</a> . <a href="#">Lunch</a> . <a href="#">Specials</a> . <a href="#">Party</a> . <a href="#">Catering</a> . <a href="#">Contact Us</a></p>
+					<p>Copyright &copy 2011 <a href="#" class="footer">Cafe&Restaurant.com</a>. All Rights Reserved. Site Designed by <a href="#" class="footer">GraphicsFuel.com</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
